@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Bliss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section class="container">
+            <div class="logo">Beauty Bliss</div>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#branches">Locations</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </section>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Your Beauty Journey Starts Here.</h1>
+                <p>Welcome to Beauty Bliss! Enjoy premium beauty experiences from expert artists using the finest products and techniques. Feel confident, radiant, and refreshed every time you visit.</p>
+                <a href="#branches" class="cta-button">Find a Branch Near You</a>
+            </div>
+            <div class="hero-image">
+                <img src="beautybliss.jpg" alt="Beautiful beauty salon ambience">
+            </div>
+        </div>
+    </section>
+
+    <section id="branches">
+        <div class="container">
+            <h2>Our Salons</h2>
+            <div class="branches-container" id="branches-container"></div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Client Reviews</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <p>"The facial and makeup services are top-notch! I always feel wonderful after visiting."</p>
+                    <span>- Priya S.</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Their staff really cares about your comfort and preferences. Highly recommended!"</p>
+                    <span>- Rahul M.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button class="cta-button" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; 2025 Beauty Bliss. All rights reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
